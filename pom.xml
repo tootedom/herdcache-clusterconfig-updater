@@ -51,7 +51,7 @@
         <maven-shade-plugin.version>2.2</maven-shade-plugin.version>
         <maven-site-plugin.version>3.3</maven-site-plugin.version>
 
-        <herdcache.version>1.0.31</herdcache.version>
+        <herdcache.version>1.0.32</herdcache.version>
         <junit.version>4.12</junit.version>
         <aws.version>1.10.30</aws.version>
         <slf4j.version>1.7.12</slf4j.version>
