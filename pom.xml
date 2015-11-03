@@ -4,7 +4,7 @@
 
     <groupId>org.greencheek.caching</groupId>
     <artifactId>herdcache-clusterconfig-updater</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>herdcache-clusterconfig-updater</name>
@@ -35,7 +35,7 @@
         <connection>scm:git:git@github.com:tootedom/herdcache-clusterconfig-updater.git</connection>
         <url>scm:git:git@github.com:tootedom/herdcache-clusterconfig-updater.git</url>
         <developerConnection>scm:git:git@github.com:tootedom/herdcache-clusterconfig-updater.git</developerConnection>
-        <tag>herdcache-clusterconfig-updater</tag>
+        <tag>herdcache-clusterconfig-updater-1.0.1</tag>
     </scm>
 
     <properties>
