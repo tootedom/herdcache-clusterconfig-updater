@@ -1,0 +1,32 @@
+
+[ v3_client ]
+basicConstraints=CA:FALSE
+authorityKeyIdentifier=keyid,issuer
+subjectKeyIdentifier=hash
+extendedKeyUsage=clientAuth
+keyUsage=digitalSignature, nonRepudiation, keyEncipherment
+
+[ v3_ca_only ]
+subjectKeyIdentifier=hash
+authorityKeyIdentifier=keyid:always,issuer:always
+basicConstraints=CA:TRUE
+keyUsage=keyCertSign
+
+[ v3_intermediate ]
+subjectKeyIdentifier=hash
+authorityKeyIdentifier=keyid:always,issuer:always
+basicConstraints=CA:TRUE
+subjectKeyIdentifier=hash
+keyUsage=keyCertSign
+
+[ v3_server ]
+subjectKeyIdentifier=hash
+authorityKeyIdentifier=keyid:always,issuer:always
+basicConstraints=CA:FALSE
+subjectKeyIdentifier=hash
+extendedKeyUsage=serverAuth
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = aws.localhost.com
+
